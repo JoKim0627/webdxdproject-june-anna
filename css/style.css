@@ -25,6 +25,16 @@ body {
 
 /*navigation*/
 
+.nav-logo {
+	width: 70px;
+	max-height: 60px;
+	margin-left: 10px;
+    margin-top: 0.1px;
+
+	-webkit-filter: brightness(90%);
+    position:fixed;
+	
+}
 
 nav {
 	/*background-color: #103434;
@@ -36,6 +46,7 @@ nav {
 	width: 100%;
 	z-index: 100;
 	top:0;
+
 }
 
 
@@ -77,6 +88,8 @@ a:focus, a:hover {
 	margin-left: 25%;
 	padding: 0;
 	
+	float:left;
+	
 
 }
 .nav-bar li {
@@ -85,20 +98,16 @@ a:focus, a:hover {
 	/*space between a and another object*/
 	padding: 10px;
 	/*space between text context and border */
+	border-radius: 5px;
 	transition: background-color .5s linear, margin .5s linear;
 }
 .nav-bar li:hover {
-	margin: 20px;
+	/*margin: 20px;*/
+	border-radius: 5px;
 	background-color: rgba(255,255,255,0.5);
 	cursor:pointer;
 }
-.nav-logo {
-	width: 100px;
-	height: 60px;
-	margin-left: 10px;
-    margin-top: 0.1px;
 
-}
 
 
 
@@ -152,6 +161,7 @@ form > input {
 	font-style: arial;
 	margin-top: 0;
 	margin-bottom: 20px;
+	padding-top:30px;
 	padding-bottom:30px;
 	
 	background-color: #00b4b2;
@@ -184,7 +194,7 @@ footer ul {
 }
 footer li {
 	display: inline-block;
-	margin-top: 30px;
+	margin-top: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
 }
@@ -194,6 +204,11 @@ footer  span {
 	font-size: 5rem;
 }
 
+footer p {
+	color:#008387;
+	margin-top:20px;
+	margin-left: -32px;
+}
 
 
 
