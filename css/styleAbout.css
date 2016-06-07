@@ -85,7 +85,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #999;
-  background-color: #262626;
+  background-color: #FFF;
   /*background: url(../img/b2.jpg) no-repeat;*/
 }
 
@@ -133,7 +133,7 @@ a:hover{
 }
 
 nav {
-  background-color: rgba(0,0,0, 0.4);
+  background-color: rgba(0,180,178, 0.8);
   color: #fff;
   height: 60px;
   position: fixed;
@@ -146,7 +146,7 @@ nav {
 
 .bar-header {
   /*width: 100%;*/
-  box-shadow: 0px 3px 10px rgba(125, 125, 125, 0.3);
+  box-shadow: 0px 5px 10px rgba(125, 125, 125, 0.4);
 }
 
 .nav-bar li {
