@@ -85,7 +85,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #999;
-  background-color: #FFF;
+  background-color: rgba(157, 232, 228, 0.1);
   /*background: url(../img/b2.jpg) no-repeat;*/
 }
 
