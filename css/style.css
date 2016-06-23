@@ -1,7 +1,8 @@
 /*default style*/
 html {
-	background-color: #00b4b2;
+	/*background-color: #00b4b2;*/
 	/*background-size: cover;*/
+	background-color: #151515;
 
 }
 
@@ -108,7 +109,12 @@ a:focus, a:hover {
 	cursor:pointer;
 }
 
-
+.banner {
+	
+	position: relative;
+	width:100%;
+	height:auto;
+}
 
 
 /*
@@ -121,11 +127,57 @@ a:focus, a:hover {
 */
 
 .image {
-	position: relative;
+	
 	filter: brightness(50%);
-	-webkit-filter: brightness(80%);
+	-webkit-filter: brightness(65%);
 	width:100%;
-	height:700px;
+	height:500px;
+	
+
+}
+
+.content {
+ position: absolute;
+ font-weight: 100;
+ font-size: 2rem;
+ margin-top: -300px;
+ margin-left: 30%;
+}
+.content h1 {
+
+	font-weight: 500;
+	color: white;
+}
+.content p {
+	color: white;
+	padding-top:20px;
+	font-size: 3.3rem;
+	font-weight: 200;
+
+}
+
+.map {
+	position: relative;
+	margin-top:20px;
+	margin-left:5%;
+	width: 90%;
+	height:auto;
+	/*-webkit-filter: brightness(96%);*/
+
+}
+.mapSize {
+	width:100%;
+	height:500px;
+
+}
+
+
+.maplink {
+	position: absolute;
+	/*opacity:1;*/
+	margin-top:-500px;
+	width:50px;
+	height:auto;
 
 }
 
@@ -167,13 +219,8 @@ form > input {
 	background-color: #00b4b2;
 }
 
-.content {
- font-weight: 100;
- font-size: 2rem;
-}
-.content h1 {
-	font-weight: 100;
-}
+
+
 
 
 
