@@ -2,7 +2,6 @@
 html {
 	background-color: #00b4b2;
 	/*background-size: cover;*/
-	background-color: #072d35;
 
 }
 
@@ -109,12 +108,7 @@ a:focus, a:hover {
 	cursor:pointer;
 }
 
-.banner {
-	
-	position: relative;
-	width:100%;
-	height:auto;
-}
+
 
 
 /*
@@ -122,100 +116,17 @@ a:focus, a:hover {
 	width: 100%;
 	
 	
-
 }
 */
 
 .image {
-	
+	position: relative;
 	filter: brightness(50%);
-	-webkit-filter: brightness(65%);
+	-webkit-filter: brightness(80%);
 	width:100%;
-	height:600px;
-		
+	height:700px;
 
 }
-
-.content {
- position: absolute;
- font-weight: 100;
- font-size: 2rem;
- margin-top: -300px;
- margin-left: 30%;
-}
-.content h1 {
-
-	font-weight: 500;
-	color: white;
-}
-.content p {
-	color: white;
-	padding-top:20px;
-	font-size: 3.3rem;
-	font-weight: 200;
-
-}
-
-.map {
-	position: relative;
-	margin-top:20px;
-	margin-left:5%;
-	width: 90%;
-	height:auto;
-	/*-webkit-filter: brightness(96%);*/
-
-}
-.mapSize {
-	width:1000px;
-	height:auto;
-}
-
-.mapImg {
-	width:93%;
-	height:100%;
-
-}
-
-.maplink {
-	position: absolute;
-	/*opacity:1;*/
-	
-	margin-left: 10%;
-
-	
-}
-
-.maplink1 {
-	position: absolute;
-
-
-	margin-left: 10%;
-}
-
-.map a:hover {
-	opacity:1;
-}
-
-.listType {
-	width:90%;
-	margin-top:20px;
-	margin-left: 5%;
-	border: white solid 7px;
-}
-
-
-.cityImg {
-	position: relative;
-}
-
-.dis {
-	position: absolute;
-	overflow: right;
-	margin-left: 8%;
-	margin-top: 40px;
-	font-size: 2rem;
-}
-
 
 
 
@@ -252,12 +163,16 @@ form > input {
 	padding-top:30px;
 	padding-bottom:30px;
 	
-	/*background-color: #00b4b2;*/
-	background-color: #072d35;
+	background-color: #00b4b2;
 }
 
-
-
+.content {
+ font-weight: 100;
+ font-size: 2rem;
+}
+.content h1 {
+	font-weight: 100;
+}
 
 
 
@@ -268,7 +183,6 @@ footer {
 	margin-top:0px;
 	width:100%;
 	height:200px;
-/*	background-color: #151515;*/
 	background-color: white;
 
 
@@ -395,37 +309,6 @@ label {
 
 
 /*mission page == about us pages* wrote by June/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*media query for resposive design*/
 @media(max-width: 941px){
 	.posters div {
