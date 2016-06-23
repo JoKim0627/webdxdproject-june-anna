@@ -1,8 +1,8 @@
 /*default style*/
 html {
-	/*background-color: #00b4b2;*/
+	background-color: #00b4b2;
 	/*background-size: cover;*/
-	background-color: #151515;
+	background-color: #072d35;
 
 }
 
@@ -130,10 +130,9 @@ a:focus, a:hover {
 	
 	filter: brightness(50%);
 	-webkit-filter: brightness(65%);
-	width:90%;
-	height:500px;
-	margin-left: 5%;
-	
+	width:100%;
+	height:600px;
+		
 
 }
 
@@ -167,20 +166,56 @@ a:focus, a:hover {
 
 }
 .mapSize {
-	width:100%;
-	height:500px;
-
+	width:1000px;
+	height:auto;
 }
 
+.mapImg {
+	width:93%;
+	height:100%;
+
+}
 
 .maplink {
 	position: absolute;
 	/*opacity:1;*/
-	margin-top:-500px;
-	width:50px;
-	height:auto;
+	
+	margin-left: 10%;
 
+	
 }
+
+.maplink1 {
+	position: absolute;
+
+
+	margin-left: 10%;
+}
+
+.map a:hover {
+	opacity:1;
+}
+
+.listType {
+	width:90%;
+	margin-top:20px;
+	margin-left: 5%;
+	border: white solid 7px;
+}
+
+
+.cityImg {
+	position: relative;
+}
+
+.dis {
+	position: absolute;
+	overflow: right;
+	margin-left: 8%;
+	margin-top: 40px;
+	font-size: 2rem;
+}
+
 
 
 
@@ -217,7 +252,8 @@ form > input {
 	padding-top:30px;
 	padding-bottom:30px;
 	
-	background-color: #00b4b2;
+	/*background-color: #00b4b2;*/
+	background-color: #072d35;
 }
 
 
@@ -232,6 +268,7 @@ footer {
 	margin-top:0px;
 	width:100%;
 	height:200px;
+/*	background-color: #151515;*/
 	background-color: white;
 
 
