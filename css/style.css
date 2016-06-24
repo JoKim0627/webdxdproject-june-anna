@@ -383,6 +383,10 @@ label {
 
 
 
+
+
+
+
 /*list page style start
 */
 /*grid*/
@@ -482,7 +486,6 @@ background-color: rgba(84,14,120,0.8);
 
 /*.bg-img{
 background-image:url(https://www.google.ca/search?q=richmond&espv=2&biw=1150&bih=689&tbm=isch&source=lnt&tbs=isz:ex,iszw:500,iszh:400#tbs=isz:ex%2Ciszw:500%2Ciszh:400&tbm=isch&q=richmond+vancouver&imgrc=SeRZPtqfGlrRHM%3A);
-
 }*/
 .option h4{
 position:absolute;
@@ -614,6 +617,7 @@ font-size:15px;
 
 
 
+
 /*mission page == about us pages* wrote by June/
 /*media query for resposive design*/
 @media(max-width: 991px){
@@ -635,7 +639,6 @@ font-size:15px;
 		width: 97%;
 	}
 }
-
 
   @media (max-width: 1500px) {
      .col-1of3{
@@ -686,7 +689,4 @@ width:100%;
 }
 
 }
-
-
-
 
