@@ -6,24 +6,75 @@
 	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styleContact.css">
 	
 </head>
 <body>
-	<nav>
-		<!-- <img class = "nav-logo" src="img/logo3.png" alt="Logo"> -->
-		<ul class = "nav-bar">
-			<!-- order list -->
-			<a href="index.html"><li>HOME</li></a>
-			<a href="listing.html"><li>CURRENT LISTINGS</li></a>
-			<a href="sold.html"><li>SOLD</li></a>
-			<a href="video.html"><li>VIDEOS</li></a>
-			<a href="about.html"><li>ABOUT US</li></a>
-			<a href="contact.html"><li>CONTACT</li></a>
-			
-		</ul>
-	</nav>	
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container">
+	        <div class="navbar-header">
+	      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	      		</button>
+	    	</div>
+
+	   		 <!-- Collect the nav links, forms, and other content for toggling -->
+	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="listing.html">CURRENT LISTINGS</a></li>
+						<li><a href="sold.html">SOLD</a></li>
+						<li><a href="about.html">ABOUT US</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+
+
+
+<div class="container contactbox">
+	
+	<div class="row">
+			<h4 style="text-align:center">Contact VanEstate Today!</h4>
+	</div>
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" required />
+					<label>Name</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input type="text" required />
+					<label>Email</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style="float:right;">
+					<input type="text" required />
+					<label>Phone Number</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea required></textarea>
+					<label>Message</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="btn-lrg submit-btn">Send Message</div>
+			</div>
+	</div>
+</div>
+
 
 
 
