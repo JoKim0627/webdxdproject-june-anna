@@ -25,7 +25,7 @@ body {
 
 /*navigation*/
 
-.nav-logo {
+/*.nav-logo {
 	width: 70px;
 	max-height: 60px;
 	margin-left: 10px;
@@ -37,21 +37,21 @@ body {
 }
 
 nav {
-	/*background-color: #103434;
-	/*ackground-color: yellow;*/
+	background-color: #103434;
+	background-color: yellow;
 	background-color: rgba(0,0,0, 0.4);
 	color: #fff;
-	height: 60px;
+	height: 80px;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
 	top:0;
 
 }
+*/
 
-
-.bar-header {
-	/*width: 100%;*/
+/*.bar-header {*/
+	/*width: 100%;
 	box-shadow: 0px 3px 10px rgba(125, 125, 125, 0.3);
 }
 
@@ -64,7 +64,7 @@ a {
 a:focus, a:hover {
 	color:white;
 }
-/*helper style*/
+/*helper style
 .center {
 	text-align: center;
 }
@@ -94,19 +94,102 @@ a:focus, a:hover {
 }
 .nav-bar li {
 	/*border: 1px solid white;*/
-	margin: 10px;
+	/*margin: 10px;*/
 	/*space between a and another object*/
-	padding: 10px;
+/*	padding: 10px;*/
 	/*space between text context and border */
-	border-radius: 5px;
+	/*border-radius: 5px;
 	transition: background-color .5s linear, margin .5s linear;
-}
-.nav-bar li:hover {
+}*/
+/*.nav-bar li:hover {*/
 	/*margin: 20px;*/
-	border-radius: 5px;
+	/*border-radius: 5px;
 	background-color: rgba(255,255,255,0.5);
 	cursor:pointer;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0px;
+	/*height: 60px;*/
+	background-color: black;
+	opacity: 0.6;
 }
+.navbar {
+	padding-left:20%;
+}
+
+
+.nav li {
+	display: inline;
+	color: white;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: lato;
+	font-size: 1.3em;
+	font-weight: 300;
+	padding: 30px 25px 10px 25px;
+
+	
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+
+	transition: background-color .5s linear;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bannerImg { 
+	width:100%;
+	
+	height: 600px;
+	
+}
+
+.carouselchange {
+    bottom: 196px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -125,7 +208,7 @@ a:focus, a:hover {
 	-webkit-filter: brightness(80%);
 	width:100%;
 	height:700px;
-
+	/*margin-top: -25px;*/
 }
 
 
@@ -221,7 +304,7 @@ footer p {
 
 
 nav {
-	/*background-color: #103434;*/
+	background-color: #103434;
 	/*ackground-color: yellow;*/
 	background-color: rgba(0,0,0, 0.4);
 	color: #fff;
@@ -310,7 +393,7 @@ label {
 
 /*mission page == about us pages* wrote by June/
 /*media query for resposive design*/
-@media(max-width: 941px){
+@media(max-width: 991px){
 	.posters div {
 		width: 45%;
 		margin-bottom: 20px;
