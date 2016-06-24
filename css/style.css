@@ -382,6 +382,7 @@ label {
 }
 
 
+
 /*list page style start
 */
 /*grid*/
@@ -612,6 +613,7 @@ font-size:15px;
 
 
 
+
 /*mission page == about us pages* wrote by June/
 /*media query for resposive design*/
 @media(max-width: 991px){
@@ -633,9 +635,6 @@ font-size:15px;
 		width: 97%;
 	}
 }
-<<<<<<< HEAD
-*/
-=======
 
 
   @media (max-width: 1500px) {
@@ -690,5 +689,4 @@ width:100%;
 
 
 
-*/
->>>>>>> origin/outlaw-listing
+
