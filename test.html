@@ -2,9 +2,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>listing</title>
+  <title>Slide &amp; Push Menus with CSS3 Transitions</title>
   <meta name="description" content="Some slide and push menu demos using CSS3 transitions.">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+
+
 
 
   <link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
@@ -14,14 +16,11 @@
    <link rel="stylesheet" href="css/style.min.css">
   
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 
    <nav class ="bar-header">
-
     <!-- <img class = "nav-logo" src="img/logo3.png" alt="Logo"> -->
     <ul class = "nav-bar">
-
       <!-- order list -->
       <a href="index.html"><li>HOME</li></a>
       <a href="listing.html"><li>CURRENT LISTINGS</li></a>
@@ -34,19 +33,9 @@
   </nav>
 
 
-
 <body>
 
-  <div class="c-buttons filter">
-        <button id="c-button--slide-left" class="c-button">筛选</button>
-        <br>
-    <button id="listview" class="c-button">List</button></button>
-    <br>
-      <button id="galleryview" class="c-button">大图</button>
-      </div>
-
-
-     
+ 
 
 
   <div class="main-content"> 
@@ -56,15 +45,15 @@
           <div class="product-box">
 
           <div class="image-wrapper"><a href="viewpost.html"><img src="img/i1.jpg" alt="product" /></a>
-            <h3>温西</h3>
-            <p>独立屋，4卧2卫 </p>
-            <p class="price">230万加币</p>
+            <h3>Private Room in 4 Bed 3 Bath </h3>
+            <p>Brand new unfurnished southwest facing 822 sq. ft., 4 bedrooms.  </p>
+            <p class="price">Price: $550,000</p>
             <a href="viewpost.html">Detail</a> | <a href="viewpost.html">Contact Now</a>
           </div>
         </div></div>
         <div class="col-1of3"><div class="product-box">
 
-          <div class="image-wrapper"><a href="viewpost.html"><img src="img/i2.jpg" alt="p1"></a><h3>高贵林 </h3><p>独立屋，4卧3卫</p><p class="price">160万加币</p>
+          <div class="image-wrapper"><a href="viewpost.html"><img src="img/i2.jpg" alt="p1"></a><h3>New! </h3><p>Brand new unfurnished southwest facing 822 sq. ft., 4 bedrooms.</p><p class="price">Price: $550,000</p>
             <a href="viewpost.html">Detail</a> | <a href="viewpost.html">Contact Now</a></div>
 
           </div></div>
@@ -139,7 +128,10 @@
   <main class="o-content">
     <div class="o-container">
 
-    
+     <div class="c-buttons">
+        <button id="c-button--slide-left" class="c-button">Slide Left</button>
+   
+      </div>
 
        <div id="github-icons"></div>
 
@@ -148,7 +140,14 @@
 
 
       <div id="c-menu--slide-left" class="c-menu c-menu--slide-left">
-  <button class="c-menu__close">&larr; 关闭</button>
+  <button class="c-menu__close">&larr; Close Menu</button>
+<!--   <ul class="c-menu__items">
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Home</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">About</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Services</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Work</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Contact</a></li>
+  </ul> -->
 
 
 
@@ -156,39 +155,51 @@
   <div class="searchtool">
      <!--   <div class="empty-space"></div> -->
 
-          <div class="col-1of2">
-            <h5>请选择区域</h5>
+          <div>
+            <h5>Select Areas</h5>
 
-            <div class="input-style"><input type="checkbox" name="city" class=""value="">温哥华
-
-            <input type="checkbox" name="city" value=""> 本拿比
-
-            <input type="checkbox" name="city" value=""> 列治文
-
-            <input type="checkbox" name="city" value=""> 新西敏斯特
-
-            <input type="checkbox" name="city" value=""> 素里
-            
-            <input type="checkbox" name="city" value=""> 其他
-            </div>
-</div>
-<div class="col-1of2">
-<h5>房屋类型</h5>
-<div class="input-style">
-            <input type="checkbox" name="a" value=""> 别墅
-
-            <input type="checkbox" name="a" value=""> 独立屋
-
-            <input type="checkbox" name="a" value=""> 公寓
-            <input type="checkbox" name="a" value=""> 其他
-
-</div>
-</div>
-
+            <input type="checkbox" name="city" value=""> Vancouver
 <br>
-<div class="col-1of2">
-<div class="input-style">
-<h5>卧室数量</h5>
+            <input type="checkbox" name="city" value=""> Burnaby
+<br>
+            <input type="checkbox" name="city" value=""> Richmond
+<br>
+            <input type="checkbox" name="city" value=""> New West
+<br>
+            <input type="checkbox" name="city" value=""> Surrey
+            <br>
+            <input type="checkbox" name="city" value=""> Other
+</div>
+<div>
+<h5>Options</h5>
+            <input type="checkbox" name="a" value=""> Titles Only
+<br>
+            <input type="checkbox" name="a" value=""> Has Image
+<br>
+            <input type="checkbox" name="a" value=""> Posted Today
+<br>
+            <input type="checkbox" name="a" value=""> Search Nearby
+
+</div>
+<div>
+
+<h5>Housing</h5>
+            <input type="checkbox" name="a" value=""> Pets Ok
+<br>
+            <input type="checkbox" name="a" value=""> Furnished
+<br>
+            <input type="checkbox" name="a" value=""> No Smoking
+<br>
+            <input type="checkbox" name="a" value=""> Wheelchair
+
+
+
+
+</div>
+
+<div>
+
+<h5>Bedrooms</h5>
  <select>
    <option value="" >1+</option> 
    <option value="">2+</option> 
@@ -197,7 +208,7 @@
    <option value="">5+</option> 
  </select>
 
- <h5>卫生间数量</h5>
+ <h5>Bathrooms</h5>
  <select>
   <option value="" >1+</option> 
    <option value="">2+</option> 
@@ -205,61 +216,34 @@
    <option value="">4+</option> 
    <option value="">5+</option> 
  </select>
-
-
-
-
-  <h5>价格($)</h5>
-<div class="input-width">
-<input class="inputbox"type="text" placeholder="最小"name="Min">
-<input  class="inputbox" type="text" placeholder="最大"name="Max">
 </div>
 
-
-<div class="input-width">
-  <h5>尺寸(sq.ft) </h5>
-<input class="inputbox"type="text" placeholder="最小"name="Min">
-<input  class="inputbox" type="text" placeholder="最大"name="Max">
+<div>
+  <h5>Price($)</h5>
+<input class="inputbox"type="text" placeholder="Min"name="Min">
+<input  class="inputbox" type="text" placeholder="Max"name="Max">
 
 </div>
 
-</div>
-</div>
-<div class="col-1of2">
-<div class="input-style">
-<h5>建造年份</h5>
-            <input type="radio" name="a" value=""> 1970前
-
-            <input type="radio" name="a" value=""> 1971-1980
-
-            <input type="radio" name="a" value=""> 1981-1990
-
-            <input type="radio" name="a" value=""> 1991-2000
-            <input type="radio" name="a" value=""> 2001-2010
-            <input type="radio" name="a" value=""> 2010后
-
-
-
+<div>
+  <h5>Size(sq.ft) </h5>
+<input class="inputbox"type="text" placeholder="Min"name="Min">
+<input  class="inputbox" type="text" placeholder="Max"name="Max">
 
 </div>
-</div>
 
-
-
-
-
-        </div> 
-        <div class="float-right"> 
+<div class="col-1of1"> 
   <input type="submit" value="Search">
 </div>
 
+        </div> 
 </div>
 
 <div id="c-mask" class="c-mask"></div>
 
- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- <script src="test.js"></script> -->
 <script src="js/menu.js"></script>
-<script src="js/home.js"></script>
+
 
 <script >
  var slideLeft = new Menu({
