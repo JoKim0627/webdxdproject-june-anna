@@ -296,7 +296,74 @@ form > input {
 	box-shadow: 0px 5px 15px rgba(125, 125, 125, 0.6);
 }
 
+video {
+	/*border: 5px solid white;*/
+	width:;
+}
 
+.videofix {
+	width:90%;
+	margin-left: 5%;
+	margin-top: 100px;
+
+}
+
+.videofix img {
+	
+	width: 400px;
+	height: 300px;
+	padding-top: 20px;
+	max-width: 90%;
+	/*max-height:300px;*/
+	
+
+}
+.videofix h4,p{
+	color:white;
+}
+
+.abcard {
+	width: 100%;
+  	max-width: 400px;
+  	margin: 0;
+
+  	margin-bottom: 30px;
+  	padding-bottom: 30px;
+  	background-color: rgba(0,0,0, 0.3);
+  	box-shadow: 0px 5px 40px rgba(125, 125, 125, 0.3);
+}
+
+.abcard-1 {
+	width: 100%;
+  	max-width: 400px;
+  	margin: 0;
+  	margin-bottom: 30px;
+  	padding-bottom: 30px;
+  	background-color: rgba(0,0,0, 0.3);
+  	box-shadow: 0px 5px 40px rgba(125, 125, 125, 0.3);
+}
+
+
+.btnCard {
+	width: 90%;
+	height: 70px;
+	line-height: 50px;
+	font-size: 1.5rem;
+	background-color: #77C6D6;
+	border:none;
+}
+
+.btnCard:hover {
+	background-color: #78BAED;
+}
+
+.btnCard:active {
+	background-color: #78BAED;
+}
+
+.btnCard:visited {
+	background-color: #77C6D6;
+}
 
 
 
