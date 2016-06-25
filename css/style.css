@@ -2,7 +2,6 @@
 html {
 	background-color: #00b4b2;
 	/*background-size: cover;*/
-	background-color: #072d35;
 
 }
 
@@ -26,7 +25,7 @@ body {
 
 /*navigation*/
 
-.nav-logo {
+/*.nav-logo {
 	width: 70px;
 	max-height: 60px;
 	margin-left: 10px;
@@ -38,21 +37,21 @@ body {
 }
 
 nav {
-	/*background-color: #103434;
-	/*ackground-color: yellow;*/
+	background-color: #103434;
+	background-color: yellow;
 	background-color: rgba(0,0,0, 0.4);
 	color: #fff;
-	height: 60px;
+	height: 80px;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
 	top:0;
 
 }
+*/
 
-
-.bar-header {
-	/*width: 100%;*/
+/*.bar-header {*/
+	/*width: 100%;
 	box-shadow: 0px 3px 10px rgba(125, 125, 125, 0.3);
 }
 
@@ -65,7 +64,7 @@ a {
 a:focus, a:hover {
 	color:white;
 }
-/*helper style*/
+/*helper style
 .center {
 	text-align: center;
 }
@@ -95,26 +94,104 @@ a:focus, a:hover {
 }
 .nav-bar li {
 	/*border: 1px solid white;*/
-	margin: 10px;
+	/*margin: 10px;*/
 	/*space between a and another object*/
-	padding: 10px;
+/*	padding: 10px;*/
 	/*space between text context and border */
-	border-radius: 5px;
+	/*border-radius: 5px;
 	transition: background-color .5s linear, margin .5s linear;
-}
-.nav-bar li:hover {
+}*/
+/*.nav-bar li:hover {*/
 	/*margin: 20px;*/
-	border-radius: 5px;
+	/*border-radius: 5px;
 	background-color: rgba(255,255,255,0.5);
 	cursor:pointer;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0px;
+	/*height: 60px;*/
+	background-color: black;
+	opacity: 0.6;
+}
+.navbar {
+	padding-left:20%;
 }
 
-.banner {
-	
-	position: relative;
-	width:100%;
-	height:auto;
+
+.nav li {
+	display: inline;
+	color: white;
+
 }
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: lato;
+	font-size: 1.3em;
+	font-weight: 300;
+	padding: 30px 25px 10px 25px;
+
+	
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #444444;
+
+	transition: background-color .5s linear;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bannerImg { 
+	width:100%;
+	
+	height: 600px;
+	
+}
+
+.carouselchange {
+    bottom: 196px;
+}
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -122,100 +199,17 @@ a:focus, a:hover {
 	width: 100%;
 	
 	
-
 }
 */
 
 .image {
-	
+	position: relative;
 	filter: brightness(50%);
-	-webkit-filter: brightness(65%);
+	-webkit-filter: brightness(80%);
 	width:100%;
-	height:600px;
-		
-
+	height:700px;
+	/*margin-top: -25px;*/
 }
-
-.content {
- position: absolute;
- font-weight: 100;
- font-size: 2rem;
- margin-top: -300px;
- margin-left: 30%;
-}
-.content h1 {
-
-	font-weight: 500;
-	color: white;
-}
-.content p {
-	color: white;
-	padding-top:20px;
-	font-size: 3.3rem;
-	font-weight: 200;
-
-}
-
-.map {
-	position: relative;
-	margin-top:20px;
-	margin-left:5%;
-	width: 90%;
-	height:auto;
-	/*-webkit-filter: brightness(96%);*/
-
-}
-.mapSize {
-	width:1000px;
-	height:auto;
-}
-
-.mapImg {
-	width:93%;
-	height:100%;
-
-}
-
-.maplink {
-	position: absolute;
-	/*opacity:1;*/
-	
-	margin-left: 10%;
-
-	
-}
-
-.maplink1 {
-	position: absolute;
-
-
-	margin-left: 10%;
-}
-
-.map a:hover {
-	opacity:1;
-}
-
-.listType {
-	width:90%;
-	margin-top:20px;
-	margin-left: 5%;
-	border: white solid 7px;
-}
-
-
-.cityImg {
-	position: relative;
-}
-
-.dis {
-	position: absolute;
-	overflow: right;
-	margin-left: 8%;
-	margin-top: 40px;
-	font-size: 2rem;
-}
-
 
 
 
@@ -252,12 +246,16 @@ form > input {
 	padding-top:30px;
 	padding-bottom:30px;
 	
-	/*background-color: #00b4b2;*/
-	background-color: #072d35;
+	background-color: #00b4b2;
 }
 
-
-
+.content {
+ font-weight: 100;
+ font-size: 2rem;
+}
+.content h1 {
+	font-weight: 100;
+}
 
 
 
@@ -268,7 +266,6 @@ footer {
 	margin-top:0px;
 	width:100%;
 	height:200px;
-/*	background-color: #151515;*/
 	background-color: white;
 
 
@@ -307,7 +304,7 @@ footer p {
 
 
 nav {
-	/*background-color: #103434;*/
+	background-color: #103434;
 	/*ackground-color: yellow;*/
 	background-color: rgba(0,0,0, 0.4);
 	color: #fff;
@@ -383,6 +380,11 @@ label {
 .input-space {
 	width: 20px;
 }
+
+
+
+
+
 
 
 /*list page style start
@@ -492,7 +494,6 @@ background-color: rgba(255,255,255,0.8);
 
 /*.bg-img{
 background-image:url(https://www.google.ca/search?q=richmond&espv=2&biw=1150&bih=689&tbm=isch&source=lnt&tbs=isz:ex,iszw:500,iszh:400#tbs=isz:ex%2Ciszw:500%2Ciszh:400&tbm=isch&q=richmond+vancouver&imgrc=SeRZPtqfGlrRHM%3A);
-
 }*/
 .option h4{
   padding-bottom:3px;
@@ -758,40 +759,11 @@ margin-top: 20%;
 
 
 
+
+
 /*mission page == about us pages* wrote by June/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*media query for resposive design*/
-@media(max-width: 941px){
+@media(max-width: 991px){
 	.posters div {
 		width: 45%;
 		margin-bottom: 20px;
@@ -810,7 +782,6 @@ margin-top: 20%;
 		width: 97%;
 	}
 }
-
 
   @media (max-width: 1500px) {
      .col-1of3{
@@ -862,6 +833,3 @@ width:100%;
 
 }
 
-
-
-*/
