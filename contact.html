@@ -27,17 +27,18 @@
 				<ul class="nav navbar-nav">
 						<li><a href="index.html">HOME</a></li>
 						<li><a href="listing.html">CURRENT LISTINGS</a></li>
-						<li><a href="sold.html">SOLD</a></li>
+						<li><a href="sold.html">VIDEO</a></li>
 						<li><a href="about.html">ABOUT US</a></li>
 						<li><a href="contact.html">CONTACT</a></li>
 				</ul>
 			</div>
 
 		</div>
-	</nav>
+	</nav> 
 
 
 
+<div class="contnContact">
 
 <div class="container contactbox">
 	
@@ -70,8 +71,61 @@
 				</div>
 			</div>
 			<div class="col-xs-12">
-				<div class="btn-lrg submit-btn">Send Message</div>
+				<!-- <div class="btn-lrg submit-btn">Send Message</div> -->
+				<button type="button" class="btn-lrg submit-btn" data-toggle="modal" data-target="#myModal">
+  					Send Message
+				</button>
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel">Thank You!</h4>
+				      </div>
+				      <div class="modal-body modalBody">
+				        We will contact you in two business Days!
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
 			</div>
+	</div>
+
+
+	<footer class ="ftCont">
+		<div class="container-fluid aboutContainer">
+		    <div class="col-md-3 col-sm-6 col-xs-12" >
+			   <center>
+			   	<a href="#" >
+					<li><span class ="glyphicon glyphicon-envelope"></span><p style="color: #816E0D; font-size:1.7rem;">Email</p> <p>vanestate@gmail.com</p></li></a>
+			   </center> 
+		  	</div>
+		 	<div class="col-md-3 col-sm-6 col-xs-12" >
+				<center>
+					<a href="#">
+					<li><span class="glyphicon glyphicon-phone"></span><p style="color: #816E0D; font-size:1.7rem;">Phone Number</p><p>+1 778-828-8888</p></li></a>
+				</center>
+		  	</div>
+		  	<div class="col-md-3 col-sm-6 col-xs-12" >
+				<center>
+					<a href="#">
+					<li><span class ="fa fa-wechat" style="font-size:50px;"></span><p style="color: #816E0D; font-size:1.7rem;">Wechat ID</p><p>vanestate2016</p></li></a>
+				</center>
+		  	</div>
+		  	<div class="col-md-3 col-sm-6 col-xs-12" >
+				<center>
+					<a href="#">
+					<li><span class ="fa fa-facebook-square" style="font-size:50px;"></span><p style="color: #816E0D; font-size:1.7rem;">Facebook </p><p>VancEstate</p></li></a>
+				</center>
+		  	</div>
+
+		</div>
+		
+	</footer>
 	</div>
 </div>
 
@@ -79,13 +133,7 @@
 
 
 
-	<footer>
-		<ul>
-			<li>About Us</li>
-			<li>News</li>
-			<li>Terms of Use</li>
-		</ul>
-	</footer>
+
 	<script src="js/jquery.min.js"></script>
 	<script src = "js/bootstrap.min.js"></script>
 	<script src = "js/home.js"></script>
