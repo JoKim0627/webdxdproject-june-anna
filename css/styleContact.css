@@ -4,12 +4,15 @@ body {
 }
 
 
+.contnContact {
+    margin-top: 60px;
+}
 
 h4 {
     font-family: 'Roboto', sans-serif, 'arial';
-    font-weight: 400;
-    font-size: 50px;
-    color: #00b4b2;
+    font-weight: 900;
+    font-size: 35px;
+    color: #006766;
     line-height: 1.5;
 }
 
@@ -18,10 +21,17 @@ h4 {
     background-color: white;
 }
 
+.modalBody {
+    background-color: 
+    color:#00b4b2;
+    font-size: 2rem;
+}
 
 
-
-
+.ftCont {
+    margin-top:50px;
+    background-color: pink;
+}
 
 
 
@@ -73,7 +83,7 @@ textarea {
     padding: 30px;
     border: 0;
     width: 100%;
-    font-size: 1rem;
+    font-size: 2rem;
     background-color: #00b4b2;
     color: white;
     border-radius: 4px;
@@ -91,7 +101,7 @@ textarea:focus ~ span {
 
 textarea {
     width: 100%;
-    min-height: 15em;
+    min-height:100px;
 }
 
 .input-container {
