@@ -8,7 +8,7 @@ $('#listview').click(function() {
 
 $('#galleryview').click(function() {
   $('img').show();
-  $('.image-wrapper').css('border', '2px solid black');
+  $('.image-wrapper').css('border', '1px solid white');
   $('.col-1of3').removeClass('fullwidth');
   $('.product-box').css('height', '500px');
 });
